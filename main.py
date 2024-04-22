@@ -61,7 +61,7 @@ async def echo(update, context):
         await update.message.reply_text('''ОООООООО мой дорогой друг! Живу я очень и очень долго...
 Настолько долго что сам сбился со счёту...''')
     elif 'бывал ли ты в космосе' in t:
-        await update.message.reply_text('''Бывал! Ещё как бывал!!! Где же толко я не был...''')
+        await update.message.reply_text('''Бывал! Ещё как бывал!!! Где же только я не был...''')
     elif 'сделай фонтан' in t:
         await update.message.reply_text('''Ты решил посмотреть на мой фонтанчик?
 Ну что ж, теперь фонтанчик будет каждые 10 минут, если ты меня не остановишь''', reply_markup=markup_4)
