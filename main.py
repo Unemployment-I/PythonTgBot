@@ -5,7 +5,7 @@ from random import randrange
 
 
 BOT_TOKEN = "6932663581:AAEYHy1nX__cQTiPy_bhngU4QqKe_6-RFtk"
-TIMER = 5
+TIMER = 10 * 60
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.DEBUG)
 logger = logging.getLogger(__name__)
 reply_keyboard_0 = [['/start']]
